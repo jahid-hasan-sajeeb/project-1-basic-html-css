@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Inter;
+    font-family: raleway;
 }
 
 .all{
@@ -10,13 +10,13 @@
 
 header{
     background-image: url("../images/Hero-bg.png");
-    height: 500px;
+    height: 550px;
 }
 
 .navbar{
     display: flex;
     justify-content:space-around;
-    gap: 45vw;
+    gap: 27vw;
     padding-top: 50px;}
 
 .nav-button{
@@ -32,12 +32,14 @@ header{
 .nav-button:hover{
     background-color: brown;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .nav-logo{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
     color: rgb(78, 71, 255);
+    font-family: Inter;
 }
 
 .banner-text{
@@ -105,6 +107,7 @@ header{
     color:rgb(78, 71, 255);
     font-size: 30px;
     font-weight: 800;
+    font-family: inter;
 }
 
 .pro-text{
@@ -149,6 +152,7 @@ header{
 
 .review-stars {
     font-size: 30px;
+    color: gold;
 }
 
 .review-title {
@@ -249,6 +253,7 @@ header{
 }
 
 .footer-title{
+    font-family: inter;
     font-size: 60px;
     font-weight: 800;
     color: rgb(78, 71, 255);

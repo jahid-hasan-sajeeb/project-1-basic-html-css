@@ -4,6 +4,10 @@
     font-family: Inter;
 }
 
+.all{
+    background-color:aliceblue;
+}
+
 header{
     background-image: url("../images/Hero-bg.png");
     height: 500px;
@@ -46,8 +50,8 @@ header{
 .main-1-container{
     display: flex;
     margin: 100px auto;
-    justify-content: center;
     justify-content:space-around;
+    align-items: center;
     gap: 5vw;
     
 }
@@ -68,7 +72,8 @@ header{
 
 .main-1-img{
     border-radius: 30px;
-    padding-right: 50px;
+    width: 30vw;
+    height: 300px;
 }
 
 .main-2-container{
@@ -83,17 +88,13 @@ header{
 
 .main-2-title{
     padding-top: 50px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .productive-users{
     display: flex;
     justify-content: space-between;
     padding: 40px 100px;
-}
-
-.prod-users-num{
-    
 }
 
 .pro-num
@@ -103,11 +104,91 @@ header{
     font-weight: 800;
 }
 
-.pro-sub{
+.pro-text{
     color:rgba(0, 0, 0, 0.5);
     font-size: 25px;
     font-weight: 500;
 }
 
+.main-3-container {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.main-3-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.main-3-reviews {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+}
+
+.review-stars {
+    font-size: 30px;
+}
+
+.review-title {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.review-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+}
+
+.reviewer {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.reviewer-name {
+    color: gray;
+    font-weight: normal;
+}
+
+.main-4-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main-4-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main-4-text {
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main-4-button {
+    margin: 20px auto;
+}
+
+.main-4-img {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
 
 

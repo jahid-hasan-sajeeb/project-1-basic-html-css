@@ -47,9 +47,8 @@ header{
     display: flex;
     margin: 100px auto;
     justify-content: center;
-    height: 10px;
     justify-content:space-around;
-    gap: 10vw;
+    gap: 5vw;
     
 }
 
@@ -69,6 +68,45 @@ header{
 
 .main-1-img{
     border-radius: 30px;
+    padding-right: 50px;
+}
+
+.main-2-container{
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1140px;
+    height: 270px;
+    border-radius: 20px;
+    
+}
+
+.main-2-title{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.productive-users{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.prod-users-num{
+    
+}
+
+.pro-num
+{
+    color:rgb(78, 71, 255);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pro-sub{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-weight: 500;
 }
 
 
